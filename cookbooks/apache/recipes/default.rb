@@ -4,7 +4,7 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-if node['platform_famil'] == "rhel"
+if node['platform_family'] == "rhel"
 	package = "httpd"
 elsif node['platform_family'] == "debian"
 	package = "apache"
